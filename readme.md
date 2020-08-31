@@ -1,16 +1,17 @@
-# Comando de instalação inicial
-* composer require slim/slim "3.2"
+# APIs REST com PHP 7 e Slim Framework
 
-# github do projeto de exemplo
-https://github.com/codeeasy-dev/apis-rest-com-php-7-e-slim-framework
+Material do curso
 
-#Pagina nao encontrada, como resolver
- colar o arquivo .htacces dentro da pasta que tem o index.php
+* Autor: Felipe Renan Vieira
+* E-mail: feliperenanvieira@gmail.com
+* Github: [https://github.com/frv-dev](https://github.com/frv-dev)
+* Site: [https://codeeasy.com.br](https://www.codeeasy.com.br)
+* Chat: [https://gitter.im/frv-dev/CodeEasy](https://gitter.im/frv-dev/CodeEasy)
 
-# Anotacao
-// tem limite de 255 caracteres para url
+## CONFIGURAÇÃO
 
-# Configuracao de erro
+Copie o arquivo `env.example.php` para `env.php` e preencha com as informações necessárias.
 
-# Site oficial
-http://www.slimframework.com/
+Rode no terminal `composer install` ou `php composer.phar install` dependendo de como você usa o composer.
+
+Use os códigos no diretório `sql/` para criar o seu banco de dados trabalhando com o SGBD MySQL.
